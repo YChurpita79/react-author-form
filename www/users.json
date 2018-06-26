@@ -1,0 +1,14 @@
+{
+  "users":[
+    {"id":0, "login":"vasa-1", "password":"1234" },
+    {"id":1, "login":"peta-22", "password":"qaz" },
+    {"id":2, "login":"1-sveta", "password":"sveta1" },
+    {"id":3, "login":"dima11", "password":"dima-2" },
+    {"id":4, "login":"colaya", "password":"dert" },
+    {"id":5, "login":"ad-mi-nn", "password":"nn-im-da" },
+    {"id":6, "login":"vera84", "password":"qaswe" },
+    {"id":7, "login":"petr0", "password":"cock12" },
+    {"id":8, "login":"bstar", "password":"starfish" },
+    {"id":9, "login":"vova", "password":"olienik" }
+  ]
+}

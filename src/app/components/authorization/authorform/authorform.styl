@@ -1,0 +1,253 @@
+
+.author-form
+  display block
+  position relative
+  background-color #fff
+  width  840px
+  height 500px
+  border-top solid 2px rgb(221, 83, 66)
+  box-shadow 0 0 5px #f3f3f3
+
+
+  h2
+    font-size 31px
+    font-family "Arial"
+    color rgb(51, 51, 51)
+    font-weight bold
+    line-height 0.581
+    display block
+    position relative
+    width 100%
+    text-align center
+    margin-top 30px
+    margin-bottom 30px
+
+  h4
+    display block
+    position relative
+    width 100%
+    text-align center
+    margin-top 35px
+    margin-bottom 30px
+    font-size 18px
+    font-family "Arial"
+    color rgb(102, 102, 102)
+    a
+      color #000
+      font-weight bold
+      cursor pointer
+
+  .btn-close
+    display inline-block
+    position absolute
+    background-image url(./img/close.png)
+    width 17px
+    height 17px
+    background-size cover
+    right 13px
+    top 13px
+    cursor pointer
+
+  .author-form-wrap
+    display flex
+    flex-wrap wrap
+    justify-content space-around
+    position relative
+    background-color #f3f3f3
+    padding-top 40px
+    padding-bottom 40px
+
+    .login-container
+      display block
+      position relative
+      height 250px
+      //width 0%
+      padding-left 55px
+      padding-right 55px
+
+      .social-btn
+        width 300px
+        height 40px
+        border-radius 3px
+        font-size 14px
+        font-family "Arial"
+        color #fff
+        display block
+        position relative
+        vertical-align middle
+        font-weight bold
+        margin-bottom 20px
+        cursor pointer
+
+      span
+        display flex
+        position absolute
+        justify-content center
+        align-items center
+        width 100%
+        height 100%
+        top 0
+        padding-left 35px
+
+      .btn-icon
+        display inline-block
+        position relative
+        margin-left 15px
+        background-size cover
+        text-align left
+        margin-top 5px
+        margin-bottom 5px
+        z-index 111
+
+      .btn-facebook
+        background-color rgb(62, 91, 150);
+        transition 0.3s all
+        :hover
+          transition 0.3s all
+          background-color rgb(65, 95, 155)
+
+
+        .face-icon
+          background-image url(./img/f.png)
+          width 13px
+          height 27px
+
+      .btn-google
+        background-color rgb(221, 83, 66)
+        transition 0.3s all
+        :hover
+          transition 0.3s all
+          background-color rgb(225, 100, 70)
+
+        .google-icon
+          background-image url(./img/g.png)
+          width 30px
+          height 27px
+
+      .author-input-wrap
+        display block
+        position relative
+        margin-bottom 20px
+
+        label
+          display block
+          position relative
+          text-align left
+          font-size: 14px;
+          font-family "Arial"
+
+          font-weight bold
+          line-height 1.286
+        input
+          border-style solid
+          border-width 1px
+          border-color rgb(221, 221, 221)
+          border-radius 3px
+          background-color rgb(255, 255, 255)
+          width 304px
+          height 44px
+          ont-size 14px
+          font-family "Arial"
+
+      .remember-wrap
+        input
+          display none
+
+        label
+          display block
+          position relative
+          font-size 14px
+          font-family "Arial"
+          color rgb(51, 51, 51)
+          font-weight bold
+          line-height 1.286
+          margin-bottom 0
+
+          >i
+            display inline-block
+            position relative
+            width 13px
+            height 13px
+            margin-right 10px
+            vertical-align middle
+            background url(./img/check.png)
+            cursor pointer
+            background-size cover
+
+      .remember-wrap
+        input[type="checkbox"]:checked
+          +label
+            i
+              background url(./img/uncheck.png)
+              background-size cover
+
+      .author-btn-wrap
+        display flex
+        justify-content space-between
+        align-items center
+        padding-top 20px
+        a
+          border-radius 3px
+          background-color rgb(37, 37, 37)
+          width 103px
+          height 40px
+          color #ffff
+          font-weight bold
+          font-size 14px
+          font-family "Arial"
+          display flex
+          justify-content center
+          align-items center
+          position relative
+          text-align center
+          text-decoration none
+          transition 0.3s all
+          cursor pointer
+
+        a:hover
+          transition 0.3s all
+          background-color rgb(102, 102, 102)
+
+        p
+          font-size 14px
+          font-family "Arial"
+          color rgb(37, 37, 37)
+          font-weight bold
+          text-decoration underline
+          line-height 1.286
+          margin-bottom 0
+
+  .login-server
+    border-left solid 1px #c5c5c5
+
+.valid-err
+  border solid 1px red
+  color red
+.label-err
+  color red
+
+
+@media (max-width:990px)
+  .author-form
+    width: 480px;
+    height auto
+    .login-server
+      border-left none
+      margin-bottom 20px
+    .author-form-wrap
+      padding-top 20px
+      padding-bottom 10px
+      .login-container
+        width auto
+        height auto
+        padding-left 0
+        padding-right 0
+
+      .login-social
+        border-top solid 1px #c5c5c5
+        padding-top 20px
+        height auto
+
+
+
+

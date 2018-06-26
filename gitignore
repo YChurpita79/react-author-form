@@ -1,0 +1,7 @@
+# Lines starting with '#' are considered comments.
+# Ignore any file named foo.txt.
+node_modules
+www/media
+ 
+# Ignore objects and archives.
+*.[oa]
